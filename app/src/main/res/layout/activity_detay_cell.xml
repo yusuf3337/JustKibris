@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackgroundjk"
+    tools:context=".cellPackage.detayCell">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/newbackgroundjk">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="1800dp"
+            android:rotationY="0"
+            tools:layout_editor_absoluteY="1dp"
+            android:background="@drawable/newbackgroundjk">
+
+            <View
+                android:id="@+id/detayImage"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                android:background="@drawable/night_club_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.025" />
+
+            <ImageView
+                android:id="@+id/detayImageView"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="@+id/detayImage"
+                app:layout_constraintEnd_toEndOf="@+id/detayImage"
+                app:layout_constraintStart_toStartOf="@+id/detayImage"
+                app:layout_constraintTop_toTopOf="@+id/detayImage"
+                app:layout_constraintVertical_bias="0.45999998"
+                app:srcCompat="@drawable/barcode"/>
+
+            <View
+                android:id="@+id/detayView"
+                android:layout_width="370dp"
+                android:layout_height="1295dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/night_club_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detayImage"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/detayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="456dp"
+                android:text="Detay Mekan Adi"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/detayView1"
+                android:layout_width="341dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/night_club_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.285" />
+
+            <TextView
+                android:id="@+id/detaytextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Etkinlik Adi"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/detayView1"
+                app:layout_constraintEnd_toEndOf="@+id/detayView1"
+                app:layout_constraintStart_toStartOf="@+id/detayView1"
+                app:layout_constraintTop_toTopOf="@+id/detayView1" />
+
+            <View
+                android:id="@+id/detayView2"
+                android:layout_width="341dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/night_club_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.355" />
+
+            <TextView
+                android:id="@+id/detaytextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="Etkinlik Tarihi"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/detayView2"
+                app:layout_constraintTop_toTopOf="@+id/detayView2" />
+
+            <TextView
+                android:id="@+id/detaytextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="148dp"
+                android:layout_marginTop="60dp"
+                android:text="Tarih"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/detayView2"
+                app:layout_constraintTop_toTopOf="@+id/detayView2" />
+
+            <View
+                android:id="@+id/detayView3"
+                android:layout_width="341dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/night_club_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.424" />
+
+            <TextView
+                android:id="@+id/detaytextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="Etkinlik Ucreti"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/detayView3"
+                app:layout_constraintTop_toTopOf="@+id/detayView3" />
+
+            <TextView
+                android:id="@+id/detaytextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="148dp"
+                android:layout_marginTop="60dp"
+                android:text="Giris 150 tl"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/detayView3"
+                app:layout_constraintTop_toTopOf="@+id/detayView3" />
+
+            <View
+                android:id="@+id/detayView4"
+                android:layout_width="341dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/night_club_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.559" />
+
+            <TextView
+                android:id="@+id/detaytextView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Etkinlik Icin Ozel Aciklama "
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/detayView4"
+                app:layout_constraintTop_toTopOf="@+id/detayView4" />
+
+            <TextView
+                android:id="@+id/detaytextView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="56dp"
+                android:text="Cheetah Girne"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/detayView4"
+                app:layout_constraintTop_toTopOf="@+id/detayView4" />
+
+            <View
+                android:id="@+id/detayView5"
+                android:layout_width="341dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/night_club_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.688" />
+
+            <TextView
+                android:id="@+id/detaytextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="Etkinlik-Iletisim Rezervasyon"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/detayView5"
+                app:layout_constraintTop_toTopOf="@+id/detayView5" />
+
+            <TextView
+                android:id="@+id/detaytextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="148dp"
+                android:layout_marginTop="56dp"
+                android:text="+90 548 866 8474"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/detayView5"
+                app:layout_constraintTop_toTopOf="@+id/detayView5" />
+
+            <View
+                android:id="@+id/detayView6"
+                android:layout_width="348dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/night_club_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.476"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.845" />
+
+            <TextView
+                android:id="@+id/detayEtkinlikID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Etkinlik Barcode No:"
+                android:textColor="#FFC400"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.968" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="327dp"
+                android:layout_height="58dp"
+                android:backgroundTint="#BC1818"
+                android:text="Konum📍"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/detayView6"
+                app:layout_constraintEnd_toEndOf="@+id/detayView6"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toStartOf="@+id/detayView6"
+                app:layout_constraintTop_toTopOf="@+id/detayView6"
+                app:layout_constraintVertical_bias="0.046" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="327dp"
+                android:layout_height="58dp"
+                android:backgroundTint="#62BA18"
+                android:text="Hemen Ara📞"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/detayView6"
+                app:layout_constraintEnd_toEndOf="@+id/detayView6"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toStartOf="@+id/detayView6"
+                app:layout_constraintTop_toBottomOf="@+id/button2"
+                app:layout_constraintVertical_bias="0.239" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="327dp"
+                android:layout_height="58dp"
+                android:backgroundTint="#00B0FF"
+                android:text="Rezervasyon Oluştur"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/detayView6"
+                app:layout_constraintEnd_toEndOf="@+id/detayView6"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="@+id/detayView6"
+                app:layout_constraintTop_toBottomOf="@+id/button3"
+                app:layout_constraintVertical_bias="0.788" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

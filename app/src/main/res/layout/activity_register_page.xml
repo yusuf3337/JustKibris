@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackgroundjk"
+    android:rotationY="0"
+    tools:context=".Register.RegisterPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="1200dp"
+            android:background="@drawable/newbackgroundjk"
+            android:rotationY="0"
+            tools:layout_editor_absoluteY="1dp">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#2CFFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout2"
+                android:layout_width="340dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="150dp"
+                android:textColorHint="#000000"
+                app:boxStrokeColor="#000000"
+                app:hintTextColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.161">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameTextF"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:background="@drawable/text_input_layout_background"
+                    android:hint="Ad"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                android:layout_width="340dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="#000000"
+                app:boxStrokeColor="#000000"
+                app:hintTextColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+                app:layout_constraintVertical_bias="0.0">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/surnameTextF"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:background="@drawable/text_input_layout_background"
+                    android:hint="Soyad"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout3"
+                android:layout_width="340dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="-40dp"
+                android:textColorHint="#000000"
+                app:boxStrokeColor="#000000"
+                app:hintTextColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+                app:layout_constraintVertical_bias="0.099">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ageTextF"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:background="@drawable/text_input_layout_background"
+                    android:hint="Yaş"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout4"
+                android:layout_width="340dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="-40dp"
+                android:textColorHint="#000000"
+                app:boxStrokeColor="#000000"
+                app:hintTextColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
+                app:layout_constraintVertical_bias="0.128">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/usernameTextF"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:background="@drawable/text_input_layout_background"
+                    android:hint="Kullanıcı Adı"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout5"
+                android:layout_width="340dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="-40dp"
+                android:textColorHint="#000000"
+                app:boxStrokeColor="#000000"
+                app:hintTextColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+                app:layout_constraintVertical_bias="0.154">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailTextF"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:background="@drawable/text_input_layout_background"
+                    android:hint="E-posta"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="340dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="-40dp"
+                android:textColorHint="#000000"
+                app:boxStrokeColor="#000000"
+                app:hintTextColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout6"
+                app:layout_constraintVertical_bias="0.273">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneTextF"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:background="@drawable/text_input_layout_background"
+                    android:hint="Telefon numarası"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout6"
+                android:layout_width="340dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="-40dp"
+                android:textColorHint="#000000"
+                app:boxStrokeColor="#000000"
+                app:hintTextColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
+                app:layout_constraintVertical_bias="0.183">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/passwordTextF"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:background="@drawable/text_input_layout_background"
+                    android:hint="Şifre"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="330dp"
+                android:layout_height="56dp"
+                android:backgroundTint="#8225EC"
+                android:onClick="registerClick"
+                android:text="Hemen Üye Ol"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.959" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="142dp"
+                android:layout_height="109dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.94"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.007"
+                app:srcCompat="@drawable/justkibrisnewlogo2" />
+
+            <ImageView
+                android:id="@+id/imageViewProfile"
+                android:layout_width="213dp"
+                android:layout_height="188dp"
+                android:onClick="selectImage"
+                app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/profilephoto"
+                android:contentDescription="@string/todo" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

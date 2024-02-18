@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="16dp" /> <!-- Köşe yarıçapını isteğe bağlı olarak ayarlayabilirsiniz -->
+    <solid android:color="#FFFFFF" /> <!-- Arka plan rengi -->
+</shape>

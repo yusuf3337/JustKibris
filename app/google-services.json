@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "375366532614",
+    "project_id": "justkibris-3eb20",
+    "storage_bucket": "justkibris-3eb20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375366532614:android:018447dad57bf7d6274d87",
+        "android_client_info": {
+          "package_name": "com.example.justkbrs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDmusvzYBoPSYAa9O5OEGC3QO6oPMWAcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

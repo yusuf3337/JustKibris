@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackgroundjk"
+    android:rotationY="0">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="4680dp"
+            android:rotationY="0"
+            tools:layout_editor_absoluteY="1dp">
+
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="375dp"
+                android:layout_height="123dp"
+                android:background="@drawable/corner_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="351dp"
+                android:layout_height="44dp"
+                android:queryHint="Ara"
+                android:background="@drawable/corner_radius_2"
+                app:layout_constraintBottom_toBottomOf="@+id/view4"
+                app:layout_constraintEnd_toEndOf="@+id/view4"
+                app:layout_constraintHorizontal_bias="0.486"
+                app:layout_constraintStart_toStartOf="@+id/view4"
+                app:layout_constraintTop_toTopOf="@+id/view4"
+                app:layout_constraintVertical_bias="0.756" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:text="Hoş Geldiniz, Emu Province"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/view4"
+                app:layout_constraintTop_toTopOf="@+id/view4" />
+
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="375dp"
+                android:layout_height="4774dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/view_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view4"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/nightClubRecycler"
+                android:layout_width="358dp"
+                android:layout_height="550dp"
+                android:background="@drawable/bar_konser_radius"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toBottomOf="@+id/view5"
+                app:layout_constraintEnd_toEndOf="@+id/view5"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toTopOf="@+id/view5"
+                app:layout_constraintVertical_bias="0.016" />
+
+            <TextView
+                android:id="@+id/nightClubText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="28dp"
+                android:text="NightClub"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toTopOf="@+id/view5" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/barRecycler"
+                android:layout_width="358dp"
+                android:layout_height="550dp"
+                android:background="@drawable/bar_konser_radius"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toBottomOf="@+id/view5"
+                app:layout_constraintEnd_toEndOf="@+id/view5"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/nightClubRecycler"
+                app:layout_constraintVertical_bias="0.019" />
+
+            <TextView
+                android:id="@+id/barText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="28dp"
+                android:text="Bar"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/nightClubRecycler" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/konserRecycler"
+                android:layout_width="358dp"
+                android:layout_height="550dp"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/bar_konser_radius"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toBottomOf="@+id/view5"
+                app:layout_constraintEnd_toEndOf="@+id/view5"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/barRecycler"
+                app:layout_constraintVertical_bias="0.014" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/sponsorRecycler"
+                android:layout_width="358dp"
+                android:layout_height="550dp"
+                android:background="@drawable/bar_konser_radius"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toBottomOf="@+id/view5"
+                app:layout_constraintEnd_toEndOf="@+id/view5"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/cafeRecycler"
+                app:layout_constraintVertical_bias="0.137" />
+
+            <TextView
+                android:id="@+id/konserText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="56dp"
+                android:text="Konser"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/barRecycler" />
+
+            <TextView
+                android:id="@+id/partiText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="Parti"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/barRecycler"
+                app:layout_constraintTop_toBottomOf="@+id/konserRecycler" />
+
+
+            <TextView
+                android:id="@+id/meyhaneText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Meyhane"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/partiRecycler" />
+
+            <TextView
+                android:id="@+id/cafeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="32dp"
+                android:text="Cafe"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/meyhaneRecycler" />
+
+            <TextView
+                android:id="@+id/sponsorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Sponsor"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/cafeRecycler" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/partiRecycler"
+                android:layout_width="358dp"
+                android:layout_height="550dp"
+                android:layout_marginBottom="1004dp"
+                android:background="@drawable/bar_konser_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/view5"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/konserRecycler"
+                app:layout_constraintVertical_bias="0.066" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/meyhaneRecycler"
+                android:layout_width="358dp"
+                android:layout_height="550dp"
+                android:layout_marginBottom="1004dp"
+                android:background="@drawable/bar_konser_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/view5"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/partiRecycler"
+                app:layout_constraintVertical_bias="0.098" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/cafeRecycler"
+                android:layout_width="358dp"
+                android:layout_height="550dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/bar_konser_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/view5"
+                app:layout_constraintStart_toStartOf="@+id/view5"
+                app:layout_constraintTop_toBottomOf="@+id/meyhaneRecycler"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>
